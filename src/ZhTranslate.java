@@ -24,11 +24,9 @@ public class ZhTranslate {
             strs[0] = strs[0].replaceAll("\\(",leftBracket);
             strs[0] = strs[0].replaceAll("\\)",rightBracket);
 
-
             strs[1] = strs[1].replaceAll(" ",whitespace);
             strs[1] = strs[1].replaceAll("\\(",leftBracket);
             strs[1] = strs[1].replaceAll("\\)",rightBracket);
-
 
             map.put(strs[0],strs[1]);
         }
