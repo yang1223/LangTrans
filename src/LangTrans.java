@@ -14,16 +14,21 @@ public class LangTrans {
         String[] list = file.list();
 
         try {
-            String s = list[1];
-            File json = new File("zh",s);
-            List<String> content = readLine(json,"UTF-8");
+            for(String filename:list){
+                File json = new File("zh" , filename);
+                List<String> content = readLine(json,"UTF-8");
+                List<String> outputContent = new ArrayList<>();
 
-            Pattern pattern = Pattern.compile("\"[\\w\\-].*?\"\\s?:\\s?\"(.*?)\"");
-            Matcher matcher;
-            for(String str:content){
-                matcher = pattern.matcher(str);
-                if(matcher.find())
-                    System.out.println(matcher.group(1));
+                Pattern pattern = Pattern.compile("\"[\\w\\-].*?\"\\s*?:\\s*?\"(.*?)\",");
+                Matcher matcher;
+                for(String str:content){
+                    matcher = pattern.matcher(str+",");
+                    if(matcher.find())
+                        outputContent.add(matcher.group(1));
+                }
+
+                File outputFile = new File("zh",filename.split("\\.")[0]+".csv");
+                writeLine(outputFile , outputContent , "UTF-8");
             }
 
         } catch (IOException e){
@@ -46,6 +51,16 @@ public class LangTrans {
         return content;
     }
 
-
+    public static void writeLine(File file , List<String> content , String charsetName) throws IOException {
+        FileOutputStream fout = new FileOutputStream(file);
+        OutputStreamWriter outWriter = new OutputStreamWriter(fout , charsetName);
+        Writer writer = new BufferedWriter(outWriter);
+        for(String line:content){
+            writer.write(line+System.getProperty("line.separator"));
+        }
+        writer.close();
+        outWriter.close();
+        fout.close();
+    }
 
 }
