@@ -1,95 +1,95 @@
 {
     "title": "",
-    "untitled": "未命名",
-    "modified": "已編輯",
-    "restored-file": "已恢復 (編輯於 {{date}})",
-    "read-only-file": "只讀",
-    "experimental": "實驗性功能",
-    "placeholder": "今天，寫一些什麼呢?",
+    "untitled": "{i18n_haroopad_112}",
+    "modified": "{i18n_haroopad_113}",
+    "restored-file": "{i18n_haroopad_114}",
+    "read-only-file": "{i18n_haroopad_115}",
+    "experimental": "{i18n_haroopad_116}",
+    "placeholder": "{i18n_haroopad_117}",
 
     "footer": {
-        "lines": "行數",
-        "words": "字數"
+        "lines": "{i18n_haroopad_118}",
+        "words": "{i18n_haroopad_119}"
     },
 
     "toc": {
-        "name": "目錄"
+        "name": "{i18n_haroopad_120}"
     },
 
-    "share": "分享",
+    "share": "{i18n_haroopad_121}",
     "state": {
-        "label": "元素統計",
-        "image": "圖片",
-        "header": "標題",
-        "link": "超鏈接",
-        "table": "表格",
-        "paragraph": "段落",
-        "code": "代碼",
-        "blockquote": "引用"
+        "label": "{i18n_haroopad_122}",
+        "image": "{i18n_haroopad_123}",
+        "header": "{i18n_haroopad_124}",
+        "link": "{i18n_haroopad_125}",
+        "table": "{i18n_haroopad_126}",
+        "paragraph": "{i18n_haroopad_127}",
+        "code": "{i18n_haroopad_128}",
+        "blockquote": "{i18n_haroopad_129}"
     },
 
     "config": {
-        "toc": "显示目錄",
-        "outline": "進入/退出大綱模式",
-        "fullscreen": "進入/退出全屏",
-        "tab": "Tab 寬度",
-        "usetab": "使用製表符縮進",
-        "experimental": "實驗性功能",
-        "spaces": "空格",
+        "toc": "{i18n_haroopad_130}",
+        "outline": "{i18n_haroopad_131}",
+        "fullscreen": "{i18n_haroopad_132}",
+        "tab": "{i18n_haroopad_133}",
+        "usetab": "{i18n_haroopad_134}",
+        "experimental": "{i18n_haroopad_135}",
+        "spaces": "{i18n_haroopad_136}",
         "column": {
-            "label": "列",
-            "one": "一列",
-            "two": "二列",
-            "three": "三列"
+            "label": "{i18n_haroopad_137}",
+            "one": "{i18n_haroopad_138}",
+            "two": "{i18n_haroopad_139}",
+            "three": "{i18n_haroopad_140}"
         },
-        "md-help": "显示/隐藏语法幫助"
+        "md-help": "{i18n_haroopad_141}"
     },
 
     "promotion": {
-        "desc": "Please Share!"
+        "desc": "{i18n_haroopad_142}"
     },
 
     "donate": {
-        "label": "捐贈",
-        "title": "支持軟件發展",
-        "desc": "如果您觉得 Haroopad 对您有用，请考虑通过 <a href='http://pad.haroopress.com/page.html?f=grow-up-donate' id='donate-link'>捐贈</a> 来支持软件的进一步发展 :)"
+        "label": "{i18n_haroopad_143}",
+        "title": "{i18n_haroopad_144}",
+        "desc": "{i18n_haroopad_145}"
     },
 
     "email": {
-        "title": "發送郵件",
-        "subject": "輸入主題",
-        "to": "接收者",
-        "from": "發送者",
-        "reciver": "輸入接收者的 Email 地址",
-        "html": "HTML",
-        "markdown": "Markdown",
-        "close": "關閉",
-        "send": "發送",
-        "sent": "已發送",
-        "remember": "記住 Email",
-        "password": "密碼",
-        "secure": "密碼不会被保存",
-        "yours": "輸入您的Gmail地址",
-        "evernote": "Evernote",
-        "tumblr": "Tumblr",
-        "invalid-account": "無效的用戶名或密碼."
+        "title": "{i18n_haroopad_146}",
+        "subject": "{i18n_haroopad_147}",
+        "to": "{i18n_haroopad_148}",
+        "from": "{i18n_haroopad_149}",
+        "reciver": "{i18n_haroopad_150}",
+        "html": "{i18n_haroopad_151}",
+        "markdown": "{i18n_haroopad_152}",
+        "close": "{i18n_haroopad_153}",
+        "send": "{i18n_haroopad_154}",
+        "sent": "{i18n_haroopad_155}",
+        "remember": "{i18n_haroopad_156}",
+        "password": "{i18n_haroopad_157}",
+        "secure": "{i18n_haroopad_158}",
+        "yours": "{i18n_haroopad_159}",
+        "evernote": "{i18n_haroopad_160}",
+        "tumblr": "{i18n_haroopad_161}",
+        "invalid-account": "{i18n_haroopad_162}"
     },
 
     "dialog": {
-        "save-change": "文檔已修改，是否保存修改?",
-        "cancel": "取消",
-        "dont-save": "不保存",
-        "save": "保存",
-        "yes": "是",
-        "no": "否",
-        "changed-file": "內容已被其他程序修改。 <br/>是否重新載入?"
+        "save-change": "{i18n_haroopad_163}",
+        "cancel": "{i18n_haroopad_164}",
+        "dont-save": "{i18n_haroopad_165}",
+        "save": "{i18n_haroopad_166}",
+        "yes": "{i18n_haroopad_167}",
+        "no": "{i18n_haroopad_168}",
+        "changed-file": "{i18n_haroopad_169}"
     },
 
     "upgrade": {
-        "uptodate": "已是最新版",
-        "message": "希望獲得最新版本?",
-        "note": "發行說明",
-        "download": "下載",
-        "newest": "Haroopad 目前已是最新版本，不需要更新"
+        "uptodate": "{i18n_haroopad_170}",
+        "message": "{i18n_haroopad_171}",
+        "note": "{i18n_haroopad_172}",
+        "download": "{i18n_haroopad_173}",
+        "newest": "{i18n_haroopad_174}"
     }
 }
