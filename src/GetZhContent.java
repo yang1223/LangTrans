@@ -13,7 +13,7 @@ public class GetZhContent {
         File file = new File("zh");
         String[] list = file.list();
 
-        List<String> zhContent = new ArrayList<>();
+        List<String> zhContent = new ArrayList<String>();
         String i18n;
         int count = 1;
 
@@ -47,7 +47,7 @@ public class GetZhContent {
 
     public static List<String> readLine(File file , String charsetName) {
 
-        List<String> content = new ArrayList<>();
+        List<String> content = new ArrayList<String>();
 
         try {
             FileInputStream fin = new FileInputStream(file);
