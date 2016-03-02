@@ -10,39 +10,23 @@ import java.util.Map;
 public class ZhTranslate {
     public static void main(String[] args){
 
-        File langs = new File("langs","language_zh_tw.csv");
+        File langs = new File("langs","language_zh_tw.tsv");
 
-        List<String> simple2traditional = readLine(langs,"UTF-8");
+        List<String> languageTsv = readLine(langs,"UTF-8");
         Map<String,String> map = new HashMap<>();
-        String whitespace = "_space_";
-        String leftBracket = "_leftbracket_";
-        String rightBracket = "_rightbracket_";
 
-        for(String line:simple2traditional){
-            String[] strs = line.split(",");
-            strs[0] = strs[0].replaceAll(" ",whitespace);
-            strs[0] = strs[0].replaceAll("\\(",leftBracket);
-            strs[0] = strs[0].replaceAll("\\)",rightBracket);
-
-            strs[1] = strs[1].replaceAll(" ",whitespace);
-            strs[1] = strs[1].replaceAll("\\(",leftBracket);
-            strs[1] = strs[1].replaceAll("\\)",rightBracket);
-
-            map.put(strs[0],strs[1]);
+        for(String line:languageTsv){
+            String[] strs = line.split("\t");
+            map.put(strs[0],strs[2]);
         }
 
-
-        File file = new File("zh");
+        File file = new File("langs");
         String[] list = file.list();
 
         for(String filename:list) {
             if (filename.endsWith(".json")) {
-                File json = new File("zh",filename);
+                File json = new File("langs",filename);
                 String content = readAllWithReturn(json,"UTF-8");
-
-                content = content.replaceAll(" ",whitespace);
-                content = content.replaceAll("\\(",leftBracket);
-                content = content.replaceAll("\\)",rightBracket);
 
                 for(Map.Entry entry:map.entrySet()){
                     String key = entry.getKey().toString();
@@ -50,12 +34,7 @@ public class ZhTranslate {
                     content = content.replace(key,value);
                 }
 
-                content = content.replaceAll(whitespace," ");
-                content = content.replaceAll(leftBracket,"(");
-                content = content.replaceAll(rightBracket,")");
-
-
-                File traditionalChineseJson = new File("langs",filename);
+                File traditionalChineseJson = new File("out",filename);
                 writeAll(traditionalChineseJson , content , "UTF-8");
             }
         }

@@ -14,22 +14,34 @@ public class GetZhContent {
         String[] list = file.list();
 
         List<String> zhContent = new ArrayList<>();
+        String i18n;
+        int count = 1;
 
         for(String filename:list){
             if(filename.endsWith(".json")){
                 File json = new File("zh" , filename);
                 List<String> content = readLine(json,"UTF-8");
 
-                Pattern pattern = Pattern.compile("\"[\\w\\-].*?\"\\s*?:\\s*?\"(.+?)\",");
+                Pattern pattern = Pattern.compile("(\\s*?\"[\\w\\-]*?\"\\s*?:\\s*?\")(.+?)(\",?)_end");
                 Matcher matcher;
-                for(String str:content){
-                    matcher = pattern.matcher(str+",");
-                    if(matcher.find())
-                        zhContent.add(matcher.group(1));
+                for(int i = 0; i < content.size() ; i++){
+                    String line = content.get(i);
+                    matcher = pattern.matcher(line+"_end");
+                    if(matcher.find()){
+                        i18n = "{i18n_haroopad_"+count+++"}";
+                        String group1 = matcher.group(1);
+                        String group2 = matcher.group(2);
+                        String group3 = matcher.group(3);
+                        zhContent.add(i18n+"\t"+group2);
+                        content.set(i, group1 + i18n + group3);
+                    }
+
                 }
+                File tempJson = new File("langs",filename);
+                writeLine(tempJson , content , "UTF-8");
             }
         }
-        File outputFile = new File("langs","language.csv");
+        File outputFile = new File("langs","language.tsv");
         writeLine(outputFile , zhContent , "UTF-8");
     }
 

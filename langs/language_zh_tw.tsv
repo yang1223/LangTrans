@@ -1,0 +1,254 @@
+{i18n_haroopad_1}	文件	文件
+{i18n_haroopad_2}	新建	新建
+{i18n_haroopad_3}	打开...	打開...
+{i18n_haroopad_4}	打开最近使用的	打開最近使用的
+{i18n_haroopad_5}	清除	清除
+{i18n_haroopad_6}	保存	保存
+{i18n_haroopad_7}	另存为...	另存為...
+{i18n_haroopad_8}	关闭	關閉
+{i18n_haroopad_9}	发送到	發送到
+{i18n_haroopad_10}	Email	Email
+{i18n_haroopad_11}	导出到...	導出到...
+{i18n_haroopad_12}	文件	文件
+{i18n_haroopad_13}	HTML	HTML
+{i18n_haroopad_14}	剪贴板	剪貼板
+{i18n_haroopad_15}	无样式 HTML	無樣式 HTML
+{i18n_haroopad_16}	含样式 HTML	含樣式 HTML
+{i18n_haroopad_17}	打印...	打印...
+{i18n_haroopad_18}	偏好设置...	偏好設置...
+{i18n_haroopad_19}	退出	退出
+{i18n_haroopad_20}	查找	查找
+{i18n_haroopad_21}	查找...	查找...
+{i18n_haroopad_22}	查找下一个	查找下一個
+{i18n_haroopad_23}	查找上一个	查找上一個
+{i18n_haroopad_24}	替换...	替換...
+{i18n_haroopad_25}	替换全部	替換全部
+{i18n_haroopad_26}	视图	視圖
+{i18n_haroopad_27}	显示模式	顯示模式
+{i18n_haroopad_28}	编辑区 : 预览区	編輯區 : 預覽區
+{i18n_haroopad_29}	预览区 : 编辑区	預覽區 : 編輯區
+{i18n_haroopad_30}	编辑区	編輯區
+{i18n_haroopad_31}	预览区	預覽區
+{i18n_haroopad_32}	切换实时预览	切換實時預覽
+{i18n_haroopad_33}	Toggle Markdown Syntax Helper	Toggle Markdown Syntax Helper
+{i18n_haroopad_34}	切换显示行号	切換顯示行號
+{i18n_haroopad_35}	预览区宽度 +5%	預覽區寬度 +5%
+{i18n_haroopad_36}	预览区宽度 -5%	預覽區寬度 -5%
+{i18n_haroopad_37}	列布局	列佈局
+{i18n_haroopad_38}	一列	一列
+{i18n_haroopad_39}	二列	二列
+{i18n_haroopad_40}	三列	三列
+{i18n_haroopad_41}	字体大小	字體大小
+{i18n_haroopad_42}	编辑区字体大小	編輯區字體大小
+{i18n_haroopad_43}	预览区字体大小	預覽區字體大小
+{i18n_haroopad_44}	切换 VIM 模式	切換 VIM 模式
+{i18n_haroopad_45}	切换目录	切換目錄
+{i18n_haroopad_46}	全屏	全屏
+{i18n_haroopad_47}	Presentation Mode	Presentation Mode
+{i18n_haroopad_48}	编辑区主题...	編輯區主題...
+{i18n_haroopad_49}	编辑区用户主题...	編輯區用戶主題...
+{i18n_haroopad_50}	预览区主题...	預覽區主題...
+{i18n_haroopad_51}	预览区代码主题...	預覽區代碼主題...
+{i18n_haroopad_52}	预览区用户主题...	預覽區用戶主題...
+{i18n_haroopad_53}	插入	插入
+{i18n_haroopad_54}	当前日期时间	當前日期時間
+{i18n_haroopad_55}	当前文件名	當前文件名
+{i18n_haroopad_56}	复制 HTML	複製 HTML
+{i18n_haroopad_57}	标题	標題
+{i18n_haroopad_58}	加粗	加粗
+{i18n_haroopad_59}	强调	強調
+{i18n_haroopad_60}	行内代码	行內代碼
+{i18n_haroopad_61}	图片	圖片
+{i18n_haroopad_62}	超链接	超鏈接
+{i18n_haroopad_63}	引用	引用
+{i18n_haroopad_64}	有序列表	有序列表
+{i18n_haroopad_65}	无序列表	無序列表
+{i18n_haroopad_66}	分节符	分節符
+{i18n_haroopad_67}	分页符	分頁符
+{i18n_haroopad_68}	分段符	分段符
+{i18n_haroopad_69}	代码块	代碼塊
+{i18n_haroopad_70}	删除线	刪除線
+{i18n_haroopad_71}	Tasklist	Tasklist
+{i18n_haroopad_72}	嵌入对象	嵌入對象
+{i18n_haroopad_73}	脚注	腳註
+{i18n_haroopad_74}	脚注引用	腳註引用
+{i18n_haroopad_75}	目录	目錄
+{i18n_haroopad_76}	表格	表格
+{i18n_haroopad_77}	注释	註釋
+{i18n_haroopad_78}	高亮	高亮
+{i18n_haroopad_79}	下划线	下劃線
+{i18n_haroopad_80}	数学代码(行间)	數學代碼(行間)
+{i18n_haroopad_81}	数学代码(行内)	數學代碼(行內)
+{i18n_haroopad_82}	嵌入视频	嵌入視頻
+{i18n_haroopad_83}	嵌入音频	嵌入音頻
+{i18n_haroopad_84}	嵌入图像	嵌入圖像
+{i18n_haroopad_85}	嵌入其他对象...	嵌入其他對象...
+{i18n_haroopad_86}	工具	工具
+{i18n_haroopad_87}	窗口	窗口
+{i18n_haroopad_88}	最小化	最小化
+{i18n_haroopad_89}	关闭	關閉
+{i18n_haroopad_90}	前置全部窗口	前置全部窗口
+{i18n_haroopad_91}	帮助	幫助
+{i18n_haroopad_92}	Haroopad 帮助	Haroopad 幫助
+{i18n_haroopad_93}	Markdown 语法帮助	Markdown 語法幫助
+{i18n_haroopad_94}	Haroopad 快捷键帮助	Haroopad 快捷鍵幫助
+{i18n_haroopad_95}	发行说明	發行說明
+{i18n_haroopad_96}	致谢	致謝
+{i18n_haroopad_97}	Haroopad 网站	Haroopad 網站
+{i18n_haroopad_98}	用户反馈	用戶反饋
+{i18n_haroopad_99}	Twitter	Twitter
+{i18n_haroopad_100}	检查更新	檢查更新
+{i18n_haroopad_101}	捐赠	捐贈
+{i18n_haroopad_102}	编辑	編輯
+{i18n_haroopad_103}	撤销	撤銷
+{i18n_haroopad_104}	重做	重做
+{i18n_haroopad_105}	剪切	剪切
+{i18n_haroopad_106}	复制	複製
+{i18n_haroopad_107}	粘贴	粘貼
+{i18n_haroopad_108}	删除	刪除
+{i18n_haroopad_109}	全选	全選
+{i18n_haroopad_110}	复制无格式 HTML	複製無格式 HTML
+{i18n_haroopad_111}	复制有格式 HTML	複製有格式 HTML
+{i18n_haroopad_112}	未命名	未命名
+{i18n_haroopad_113}	已编辑	已編輯
+{i18n_haroopad_114}	已恢复 (编辑于 {{date}})	已恢復 (編輯於 {{date}})
+{i18n_haroopad_115}	只读	只讀
+{i18n_haroopad_116}	实验性功能	實驗性功能
+{i18n_haroopad_117}	今天，写一些什么呢?	今天，寫一些什麼呢?
+{i18n_haroopad_118}	行数	行數
+{i18n_haroopad_119}	字数	字數
+{i18n_haroopad_120}	目录	目錄
+{i18n_haroopad_121}	分享	分享
+{i18n_haroopad_122}	元素统计	元素統計
+{i18n_haroopad_123}	图片	圖片
+{i18n_haroopad_124}	标题	標題
+{i18n_haroopad_125}	超链接	超鏈接
+{i18n_haroopad_126}	表格	表格
+{i18n_haroopad_127}	段落	段落
+{i18n_haroopad_128}	代码	代碼
+{i18n_haroopad_129}	引用	引用
+{i18n_haroopad_130}	显示目录	顯示目錄
+{i18n_haroopad_131}	进入/退出大纲模式	進入/退出大綱模式
+{i18n_haroopad_132}	进入/退出全屏	進入/退出全屏
+{i18n_haroopad_133}	Tab 宽度	Tab 寬度
+{i18n_haroopad_134}	使用制表符缩进	使用製表符縮進
+{i18n_haroopad_135}	实验性功能	實驗性功能
+{i18n_haroopad_136}	空格	空格
+{i18n_haroopad_137}	列	列
+{i18n_haroopad_138}	一列	一列
+{i18n_haroopad_139}	二列	二列
+{i18n_haroopad_140}	三列	三列
+{i18n_haroopad_141}	显示/隐藏语法帮助	顯示/隱藏語法幫助
+{i18n_haroopad_142}	Please Share!	Please Share!
+{i18n_haroopad_143}	捐赠	捐贈
+{i18n_haroopad_144}	支持软件发展	支持軟件發展
+{i18n_haroopad_145}	如果您觉得 Haroopad 对您有用，请考虑通过 <a href='http://pad.haroopress.com/page.html?f=grow-up-donate' id='donate-link'>捐赠</a> 来支持软件的进一步发展 :)	如果您覺得Haroopad 對您有用，請考慮通過<a href='http://pad.haroopress.com/page.html?f=grow-up-donate' id='donate-link'>捐贈</a > 來支持軟件的進一步發展:)
+{i18n_haroopad_146}	发送邮件	發送郵件
+{i18n_haroopad_147}	输入主题	輸入主題
+{i18n_haroopad_148}	接收者	接收者
+{i18n_haroopad_149}	发送者	發送者
+{i18n_haroopad_150}	输入接收者的 Email 地址	輸入接收者的 Email 地址
+{i18n_haroopad_151}	HTML	HTML
+{i18n_haroopad_152}	Markdown	Markdown
+{i18n_haroopad_153}	关闭	關閉
+{i18n_haroopad_154}	发送	發送
+{i18n_haroopad_155}	已发送	已發送
+{i18n_haroopad_156}	记住 Email	記住 Email
+{i18n_haroopad_157}	密码	密碼
+{i18n_haroopad_158}	密码不会被保存	密碼不會被保存
+{i18n_haroopad_159}	输入您的Gmail地址	輸入您的Gmail地址
+{i18n_haroopad_160}	Evernote	Evernote
+{i18n_haroopad_161}	Tumblr	Tumblr
+{i18n_haroopad_162}	无效的用户名或密码.	無效的用戶名或密碼.
+{i18n_haroopad_163}	文档已修改，是否保存修改?	文檔已修改，是否保存修改?
+{i18n_haroopad_164}	取消	取消
+{i18n_haroopad_165}	不保存	不保存
+{i18n_haroopad_166}	保存	保存
+{i18n_haroopad_167}	是	是
+{i18n_haroopad_168}	否	否
+{i18n_haroopad_169}	内容已被其他程序修改。<br/>是否重新载入?	內容已被其他程序修改。 <br/>是否重新載入?
+{i18n_haroopad_170}	已是最新版	已是最新版
+{i18n_haroopad_171}	希望获得最新版本?	希望獲得最新版本?
+{i18n_haroopad_172}	发行说明	發行說明
+{i18n_haroopad_173}	下载	下載
+{i18n_haroopad_174}	Haroopad 目前已是最新版本，不需要更新	Haroopad 目前已是最新版本，不需要更新
+{i18n_haroopad_175}	偏好设置	偏好設置
+{i18n_haroopad_176}	确定	確定
+{i18n_haroopad_177}	否	否
+{i18n_haroopad_178}	是	是
+{i18n_haroopad_179}	取消	取消
+{i18n_haroopad_180}	重置	重置
+{i18n_haroopad_181}	应用	應用
+{i18n_haroopad_182}	完成	完成
+{i18n_haroopad_183}	更新中	更新中
+{i18n_haroopad_184}	编辑	編輯
+{i18n_haroopad_185}	重新载入	重新載入
+{i18n_haroopad_186}	已有新的语言包，是否现在更新?	已有新的語言包，是否現在更新?
+{i18n_haroopad_187}	更新完成，请重新启动 Haroopad :)	更新完成，請重新啟動 Haroopad :)
+{i18n_haroopad_188}	更新失败 :( 请检查网络连接。	更新失敗 :( 請檢查網絡連接。
+{i18n_haroopad_189}	通用	通用
+{i18n_haroopad_190}	编辑器	編輯器
+{i18n_haroopad_191}	预览	預覽
+{i18n_haroopad_192}	自定义	自定義
+{i18n_haroopad_193}	代码	代碼
+{i18n_haroopad_194}	Markdown	Markdown
+{i18n_haroopad_195}	关于	關於
+{i18n_haroopad_196}	备份	備份
+{i18n_haroopad_197}	通用	通用
+{i18n_haroopad_198}	日期和时间	日期和時間
+{i18n_haroopad_199}	启用 Markdown 自动完成	啟用 Markdown 自動完成
+{i18n_haroopad_200}	同步滚动	同步滾動
+{i18n_haroopad_201}	自动恢复上一次文件	自動恢復上一次文件
+{i18n_haroopad_202}	通用	通用
+{i18n_haroopad_203}	主题	主題
+{i18n_haroopad_204}	空格	空格
+{i18n_haroopad_205}	自定义主题	自定義主題
+{i18n_haroopad_206}	Tab 宽度	Tab 寬度
+{i18n_haroopad_207}	使用制表符缩进	使用製表符縮進
+{i18n_haroopad_208}	显示行号	顯示行號
+{i18n_haroopad_209}	Vim 模式	Vim 模式
+{i18n_haroopad_210}	自动符号配对	自動符號配對
+{i18n_haroopad_211}	插入 4 个空格代替制表符	插入 4 個空格代替製表符
+{i18n_haroopad_212}	高亮显示当前行	高亮顯示當前行
+{i18n_haroopad_213}	启用 Markdown 折叠	啟用 Markdown 折疊
+{i18n_haroopad_214}	通用	通用
+{i18n_haroopad_215}	主题	主題
+{i18n_haroopad_216}	字体大小	字體大小
+{i18n_haroopad_217}	自定义主题	自定義主題
+{i18n_haroopad_218}	允许点击超链接	允許點擊超鏈接
+{i18n_haroopad_219}	通用	通用
+{i18n_haroopad_220}	重新载入	重新載入
+{i18n_haroopad_221}	目录	目錄
+{i18n_haroopad_222}	选择主题	選擇主題
+{i18n_haroopad_223}	主题将应用于：实时预览、导出为 HTML/PDF、发送 Email (Evernote, Tumblr)	主題將應用於：實時預覽、導出為 HTML/PDF、發送 Email (Evernote, Tumblr)
+{i18n_haroopad_224}	通用	通用
+{i18n_haroopad_225}	主题	主題
+{i18n_haroopad_226}	代码高亮中显示行号	代碼高亮中顯示行號
+{i18n_haroopad_227}	Github Flavored Markdown (GFM)	Github Flavored Markdown (GFM)
+{i18n_haroopad_228}	其他选项	其他選項
+{i18n_haroopad_229}	数学表达式选项	數學表達式選項
+{i18n_haroopad_230}	忽略输入的 HTML 标记	忽略輸入的 HTML 標記
+{i18n_haroopad_231}	使用 GFM 换行模式	使用 GFM 換行模式
+{i18n_haroopad_232}	启用 GFM 表格	啟用 GFM 表格
+{i18n_haroopad_233}	智能列表	智能列表
+{i18n_haroopad_234}	智能标点	智能標點
+{i18n_haroopad_235}	启用数学表达式	啟用數學表達式
+{i18n_haroopad_236}	您的 Markdown 设置将会恢复到默认设置	您的 Markdown 設置將會恢復到默認設置
+{i18n_haroopad_237}	使用 $ 作为行内表达式标记 (默认: $$$)	使用 $ 作為行內表達式標記 (默認: $$$)
+{i18n_haroopad_238}	启用脚注	啟用腳註
+{i18n_haroopad_239}	捐赠	捐贈
+{i18n_haroopad_240}	<strong>Haroo</strong> 在韩语中意为 \"一天\"	<strong>Haroo</strong> 在韓語中意為 \"一天\"
+{i18n_haroopad_241}	版本	版本
+{i18n_haroopad_242}	官方网站	官方網站
+{i18n_haroopad_243}	开发者	開發者
+{i18n_haroopad_244}	特别感谢	特別感謝
+{i18n_haroopad_245}	图标	圖標
+{i18n_haroopad_246}	Haroopad<small>下一代文档编辑器</small>	Haroopad<small>下一代文檔編輯器</small>
+{i18n_haroopad_247}	如果您喜欢 Haroopad, 请捐赠以支持发展 :)	如果您喜歡 ​​Haroopad, 請捐贈以支持發展 :)
+{i18n_haroopad_248}	导入和导出配置...	導入和導出配置...
+{i18n_haroopad_249}	导入配置	導入配置
+{i18n_haroopad_250}	导出配置	導出配置
+{i18n_haroopad_251}	需要重新启动	需要重新啟動
+{i18n_haroopad_252}	配置导入完毕，您需要重新启动 Haroopad 来使它们生效。<br/>是否重新启动 Haroopad?	配置導入完畢，您需要重新啟動 Haroopad 來使它們生效。 <br/>是否重新啟動 Haroopad?
+{i18n_haroopad_253}	导出完成!	導出完成!
+{i18n_haroopad_254}	设置导出成功。<br/>您可以通过 \"<b>偏好设置 &gt; 备份 &gt; 导入配置</b>\" 来导入您的配置信息。	設置導出成功。 <br/>您可以通過 \"<b>偏好設置 &gt; 備份 &gt; 導入配置</b>\" 來導入您的配置信息。
