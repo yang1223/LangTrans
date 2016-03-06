@@ -8,15 +8,18 @@
 ##Usage
 1. 點選右上角的`Download ZIP`下載整個zip檔
 2. 解壓縮
-3. 在資料夾裡面執行
+3. 在資料夾裡面執行:
+
 	```
 	> java ZhTranslate
 	```
-    它會自動尋找預設安裝Haroopad的路徑
-    你也可以自己給 haroopad.exe 所在的路徑當作參數
+
+    它會自動尋找預設安裝Haroopad的路徑,你也可以自己給 haroopad.exe 所在的路徑當作參數:
+
     ```
 	> java ZhTranslate "C:\Users\<Username>\AppData\Roaming\Haroo Studio\Haroopad"
 	```
+
 4. 重新啟動 Haroopad
 5. Nice!
 
