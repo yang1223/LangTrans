@@ -1,5 +1,5 @@
 {
-    "title": "偏好設置",
+    "title": "設定",
     "ok": "確定",
     "no": "否",
     "yes": "是",
@@ -26,7 +26,7 @@
         "editor": "編輯器",
         "viewer": "預覽",
         "custom": "自定義",
-        "code": "代碼",
+        "code": "Code",
         "markdown": "Markdown",
         "about": "關於",
         "backup": "備份"
@@ -51,7 +51,7 @@
         "vim-key-binding": "Vim 模式",
         "auto-pair-char": "自動符號配對",
         "insert-four-space": "插入 4 個空格代替製表符",
-        "display-active-line": "高亮顯示當前行",
+        "display-active-line": "Highlight顯示當前行",
         "use-markdown-folding": "啟用 Markdown 折疊"
     },
 
@@ -74,7 +74,7 @@
     "code": {
         "general": "通用",
         "themes": "主題",
-        "show-line-number": "代碼高亮中顯示行號"
+        "show-line-number": "代碼highlight中顯示行號"
     },
 
     "markdown": {
@@ -105,12 +105,12 @@
     },
 
     "backup": {
-        "title": "導入和導出配置...",
+        "title": "導入和導出配置",
         "import": "導入配置",
         "export": "導出配置",
         "import-done": "需要重新啟動",
         "import-done-msg": "配置導入完畢，您需要重新啟動 Haroopad 來使它們生效。 <br/>是否重新啟動 Haroopad?",
         "export-done": "導出完成!",
-        "export-done-msg": "設置導出成功。 <br/> 您可以通過 \"<b> 偏好設置 &gt; 備份 &gt; 導入配置 </b>\" 來導入您的配置信息。"
+        "export-done-msg": "設置導出成功。 <br/> 您可以通過 \"<b> 設定 &gt; 備份 &gt; 導入配置 </b>\" 來導入您的配置信息。"
     }
 }

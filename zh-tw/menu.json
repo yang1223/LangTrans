@@ -2,7 +2,7 @@
     "file": {
         "name": "檔案",
         "new": "開新檔案",
-        "open": "開啟...",
+        "open": "開啟",
         "open-recent": "開啟最近使用的",
         "clear-all": "清除",
         "save": "保存",
@@ -10,22 +10,22 @@
         "close": "關閉",
         "sending": "發送到",
         "sending-email": "Email",
-        "exports": "導出到...",
+        "exports": "匯出",
         "export-to-file": "文件",
         "export-to-html": "HTML",
         "copy-to-clipboard": "剪貼板",
         "plain-html": "無樣式 HTML",
         "styled-html": "含樣式 HTML",
-        "print": "列印...",
-        "preferences": "偏好設置...",
+        "print": "列印",
+        "preferences": "設定",
         "quit": "退出"
     },
     "find": {
         "name": "搜尋",
-        "find": "搜尋...",
+        "find": "搜尋",
         "find-next": "搜尋下一個",
         "find-previous": "搜尋上一個",
-        "replace": "替換...",
+        "replace": "替換",
         "replace-all": "替換全部"
     },
     "view": {
@@ -52,18 +52,18 @@
         "enter-full-screen": "全螢幕",
         "enter-presentation": "Presentation Mode",
         "editor": {
-            "theme": "編輯區主題...",
-            "theme-user": "編輯區用户主題..."
+            "theme": "編輯區主題",
+            "theme-user": "編輯區用户主題"
         },
         "viewer": {
-            "theme": "預覽區主題...",
-            "theme-code": "預覽區代碼主題...",
-            "theme-user": "預覽區用戶主題..."
+            "theme": "預覽區主題",
+            "theme-code": "預覽區代碼主題",
+            "theme-user": "預覽區用戶主題"
         }
     },
     "insert": {
         "name": "插入",
-        "date-time": "當前日期時間",
+        "date-time": "現在日期時間",
         "filename": "當前文件名",
         "copy-html": "複製 HTML",
         "header": "標題",
@@ -87,14 +87,14 @@
         "toc":              "目錄",
         "table":            "表格",
         "comment":          "註解",
-        "highlight":        "highlight",
+        "highlight":        "Highlight",
         "underline":        "底線",
         "math-block":       "數學公式(區塊)",
         "math-inline":      "數學公式(行內)",
         "embed-video":      "插入影片",
         "embed-audio":      "插入音檔",
         "embed-image":      "插入圖片",
-        "embed-other":      "插入其他..."
+        "embed-other":      "插入其他"
     },
     "tool": {
         "name": "工具"
@@ -107,13 +107,13 @@
     },
     "help": {
         "name": "幫助",
-        "haroopad-help": "Haroopad 幫助",
-        "markdown-syntax-help": "Markdown 語法幫助",
-        "haroopad-shortcut-help": "Haroopad 快捷鍵幫助",
+        "haroopad-help": "Haroopad Help",
+        "markdown-syntax-help": "Markdown 語法",
+        "haroopad-shortcut-help": "Haroopad 快捷鍵",
         "release-notes": "發行說明",
         "acknowledgements": "致謝",
         "haroopad-website": "Haroopad 網站",
-        "user-echo": "用戶反饋",
+        "user-echo": "用戶回饋",
         "twitter": "Twitter",
         "check-for-update": "檢查更新",
         "boost-up-donate": "捐贈"

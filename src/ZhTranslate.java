@@ -1,6 +1,5 @@
 import java.io.*;
 import java.nio.file.Files;
-import java.nio.file.Path;
 
 /**
  * Created by cavitation on 2016/3/2.
@@ -11,17 +10,16 @@ public class ZhTranslate {
         final String[] jsonFiles = {"error.json" , "menu.json" , "pad.json" , "preference.json"};
         final String[] _jsonFiles = {"_error.json" , "_menu.json" , "_pad.json" , "_preference.json"};
 
-
         try{
             String haroopadPath = getHaroopadPath(args);
 
             File haroopadDir = new File(haroopadPath);
             if(haroopadDir.isDirectory()){
+                // find language folder
                 String zhPath = haroopadPath+"\\Libraries\\.locales\\zh";
                 File zh = new File(zhPath);
                 if(zh.isDirectory()){
                     for(int i = 0 ; i < jsonFiles.length ; i++){
-
                         // rename the original json files
                         File file1 = new File(zh.getPath(),jsonFiles[i]);
                         File file2 = new File(zh.getPath(),_jsonFiles[i]);
@@ -29,6 +27,7 @@ public class ZhTranslate {
                             file1.delete();
                         else
                             file1.renameTo(file2);
+                        // copy the traditional chinese file to here
                         File source = new File("zh-tw",jsonFiles[i]);
                         File target = new File(zh.getPath(),jsonFiles[i]);
                         Files.copy(source.toPath(), target.toPath());
@@ -36,7 +35,7 @@ public class ZhTranslate {
                     }
                     System.out.println("Finish!");
                 } else {
-                    throw new HaroopadNotFoundException("Cannot find language folder! Please check the path!");
+                    throw new HaroopadNotFoundException("Cannot find language folder in the Haroopad!");
                 }
             }
         } catch (Exception e) {
@@ -50,16 +49,16 @@ public class ZhTranslate {
         if(args.length != 0){
             String path = args[0];
             File file = new File(path);
-            if(!file.exists()) throw new HaroopadNotFoundException("Cannot find the input path!");
+            if(!file.exists()) throw new HaroopadNotFoundException("Your input path does not exist!");
             if(!new File(path,"haroopad.exe").exists())
                 throw new HaroopadNotFoundException("Cannot find \"haroopad.exe\" in your input path!");
             return file.getPath();
         } else {
             String haroopadPath = getAppDataPath() + "\\Haroo Studio\\Haroopad";
             File haroopadDir = new File(haroopadPath);
-            if(!haroopadDir.exists()) throw new HaroopadNotFoundException("Cannot find the input path!");
+            if(!haroopadDir.exists()) throw new HaroopadNotFoundException("Cannot find  \"haroopad.exe\" !");
             if(!new File(haroopadPath,"haroopad.exe").exists())
-                throw new HaroopadNotFoundException("Cannot find \"haroopad.exe\" in your input path!");
+                throw new HaroopadNotFoundException("Cannot find \"haroopad.exe\" !");
             return haroopadDir.getPath();
         }
     }
