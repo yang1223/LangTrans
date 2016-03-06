@@ -14,7 +14,7 @@
 	> java ZhTranslate
 	```
 
-    它會自動尋找預設安裝Haroopad的路徑,你也可以自己給 haroopad.exe 所在的路徑當作參數:
+    它會自動尋找預設安裝Haroopad的路徑，你也可以自己給 haroopad.exe 所在的路徑當作參數:
 
     ```
 	> java ZhTranslate "C:\Users\<Username>\AppData\Roaming\Haroo Studio\Haroopad"
@@ -23,7 +23,7 @@
 4. 重新啟動 Haroopad
 5. Nice!
 
-#####補充說明
+####補充說明
 - 若不給路徑參數的話，會依作業系統去找系統預設AppData的路徑
 - 如果還是找不到或是你根本沒有安裝在預設的路徑底下的話，就請自己給路徑參數
 - 路徑參數要是`haroopad.exe`所在的那個資料夾
@@ -64,7 +64,7 @@
 - 找到應用程式中存放中文文字的`zh`資料夾
 - 把裡面的檔案換成`zh-tw`裡面的json檔
 
-#####補充說明
+####補充說明
 - 因為 google translate 的 API 好像要$$$，然後網路上查的其他繁簡轉換的 API 也都是用個文字轉換表，所以乾脆自己來做繁簡轉換表 (也就是`language_zh_tw.tsv`)
 - 把簡體字抓出來存在`language.tsv`然後把這張表丟到 google 試算表就可以用`=GOOGLETRANSLATE(B1,"zh","zh-tw")`來把存在 B1 那格的文字從簡體轉成繁體
 - 上面那個檔案從 google 試算表載下來存成`language_zh_tw.tsv`
