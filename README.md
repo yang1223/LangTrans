@@ -14,7 +14,7 @@
 	> java ZhTranslate
 	```
 
-    它會自動尋找預設安裝Haroopad的路徑，你也可以自己給 haroopad.exe 所在的路徑當作參數:
+    它會自動尋找預設安裝Haroopad的路徑，你也可以自己給 haroopad.exe 所在的路徑當作參數，for example：
 
     ```
 	> java ZhTranslate "C:\Users\<Username>\AppData\Roaming\Haroo Studio\Haroopad"
