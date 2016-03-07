@@ -67,10 +67,12 @@
 ####補充說明
 - 因為 google translate 的 API 好像要$$$，然後網路上查的其他繁簡轉換的 API 也都是用個文字轉換表，所以乾脆自己來做繁簡轉換表 (也就是`language_zh_tw.tsv`)
 - 把簡體字抓出來存在`language.tsv`然後把這張表丟到 google 試算表就可以用`=GOOGLETRANSLATE(B1,"zh","zh-tw")`來把存在 B1 那格的文字從簡體轉成繁體
+![GOOGLETRANSLATE](img/googletranslate.png)
 - 上面那個檔案從 google 試算表載下來存成`language_zh_tw.tsv`
 - 以上整件事情 excel 應該也做得到吧(?)
 - 因為抓出來的有些文字含有逗號，所以存 .tsv 檔不存 .csv 檔
 - 執行完畢之後原本簡體字的檔案並不會被刪除，而是會在原本的資料夾裡面被重新命名成前面加一個底線，所以哪天突然想要回到簡體字的懷抱的話只要把複製過去的json檔刪除再把有底線的檔名還原就好了
+
 
 
 
